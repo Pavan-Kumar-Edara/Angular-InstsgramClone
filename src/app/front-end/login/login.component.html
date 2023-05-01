@@ -1,0 +1,38 @@
+<head>
+    <style>
+        .container{
+            background-image:url("https://images5.alphacoders.com/101/1017008.jpg");
+            background-repeat:no-repeat;
+            background-size:1000px;
+            background-position:center;
+            
+        }
+    </style>
+</head>
+
+<div class="container">
+<h1>Login</h1>
+    <form #loginForm="ngForm" >
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="eg:avb@gmail.com" ngModel required>
+      </div><br>
+      
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="password" ngModel required>
+      </div><br>
+      <button type="submit"  routerLink="profile">Login</button>
+    
+    </form>
+    
+    <p>Don't have an account? <a>Register</a></p>  
+</div>
+
+  
+  
+  
+  
+  
+  
+  
